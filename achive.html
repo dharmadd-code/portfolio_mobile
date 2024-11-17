@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="achive.css">
+    <title>Achievements Gallery</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Arun Roshan's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="achive.html">Achievement</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="articles">
+        <div class="container">
+            <h2 style="margin-top: 5%; margin-bottom: 5%;">Achievements</h2>
+
+    <div class="gallery">
+        <div class="card" onclick="showDetails('The best IoT project award in my college (Vellore Institute of Technology) for developing a smart glass.', 'I’m thrilled to share that I have received the best IoT project award in my college (Vellore Institute of Technology) for developing a smart glass. This project was part of my final year capstone course and it was a challenging but rewarding experience.I used Arduino, Android studio and Python to build the system and test its functionality.', 'iot award.jpeg')">
+            <img src="iot award.jpeg" alt="Achievement 1">
+            <h3>The best IoT project award in my college (Vellore Institute of Technology) for developing a smart glass.</h3>
+        </div>
+        <div class="card" onclick="showDetails('The Asian Regional Space Settlement Design Competition, conducted by NASA', 'Participated in the Asian Regional Space Settlement Design Competition, conducted by NASA, where I contributed to developing innovative space habitat concepts. Our team achieved runner-up status, showcasing our strong collaborative and design skills.', 'nasa award.jpeg')">
+            <img src="nasa award.jpeg" alt="Achievement 2">
+            <h3>The Asian Regional Space Settlement Design Competition, conducted by NASA</h3>
+        </div>
+        <div class="card" onclick="showDetails('World Record Achievement: Most Users in a 24-Hour Programming Lesson', '’m thrilled to share that I participated in an official attempt for the GUINNESS WORLD RECORDS™. Alongside fellow coding enthusiasts, we set out to achieve the record for “Most users to take an online computer programming lesson in 24 hours.', 'guvi award.jpeg')">
+            <img src="guvi award.jpeg" alt="Achievement 3">
+            <h3>World Record Achievement: Most Users in a 24-Hour Programming Lesson</h3>
+        </div>
+        <!-- Add more cards as needed -->
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <img id="popup-image" src="" alt="Popup Image">
+            <h2 id="popup-title"></h2>
+            <p id="popup-description"></p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Arun Roshan. All rights reserved.</p>
+    </div>
+</footer>
+
+    <script src="achive.js"></script>
+</body>
+</html>

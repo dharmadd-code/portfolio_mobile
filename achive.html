@@ -15,7 +15,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="aboutme.html">About Me</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="achive.html">Achievement</a></li>
+                    <li><a href="achive.html">Achievements</a></li>
                     <li><a href="resume.html">Resume</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="blog.html">Articles</a></li>
@@ -24,54 +24,53 @@
             </nav>
         </div>
     </header>
-    <nav class="navbar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
 
     <section id="articles">
         <div class="container">
-            <h2 style="margin-top: 5%; margin-bottom: 5%;">Achievements</h2>
+            <h2 style="margin-top: 5%; margin-bottom: 5%;">Achievements & Certifications</h2>
 
-    <div class="gallery">
-        <div class="card" onclick="showDetails('Awarded by Maxvy Technologies Pvt. Ltd. for exceptional performance and dedication in providing IT support services. This recognition highlights my ability to resolve technical issues efficiently, implement innovative solutions, and ensure seamless IT operations across the organization. It reflects my commitment to maintaining high standards of reliability, teamwork, and customer satisfaction in the IT domain.', 'Best IT_SUPPORT Member.png')">
-            <img src="Best IT_SUPPORT Member.png" alt="Achievement 1">
-            <h3>The best IT-SUPPORT Member Award [Maxvy Technologies pvt ltd</h3>
-        <!-- Certification 1 -->
-        <div class="card" onclick="showDetails('AWS Certified Solutions Architect – Associate', 'Earned the AWS Certified Solutions Architect – Associate certification, showcasing expertise in cloud architecture and AWS services.', 'AWS-solution architect associate.png')">
-            <img src="AWS-solution architect associate.png" alt="Certification 1">
-            <h3>AWS Certified Solutions Architect – Associate</h3>
+            <div class="gallery">
+                <!-- Achievement 1 -->
+                <div class="card" onclick="showDetails('Awarded by Maxvy Technologies Pvt. Ltd. for exceptional performance and dedication in providing IT support services. This recognition highlights my ability to resolve technical issues efficiently, implement innovative solutions, and ensure seamless IT operations across the organization. It reflects my commitment to maintaining high standards of reliability, teamwork, and customer satisfaction in the IT domain.', 'Best IT_SUPPORT Member.png')">
+                    <img src="Best IT_SUPPORT Member.png" alt="Achievement 1">
+                    <h3>The Best IT-SUPPORT Member Award [Maxvy Technologies Pvt. Ltd.]</h3>
+                </div>
 
-        <!-- Certification 2 -->
-        <div class="card" onclick="showDetails('Certified RHCSA-EX200', 'Successfully completed the Red Hat Certified System Administrator (RHCSA) training on Udemy, gaining expertise in Linux system administration, including managing users, processes, services, and configuring basic networking and security features. This certification demonstrates my foundational knowledge and practical skills in enterprise Linux environments.', 'RHCSA.png')">
-            <img src="cka_certification.jpeg" alt="Certification 2">
-            <h3>Certified Kubernetes Administrator (CKA)</h3>
-            
-         <!-- Certification 3 -->
-         <div class="card" onclick="showDetails('Jenkins From Zero to Master -Industrial CI/CD Projects', 'ompleted a comprehensive Jenkins course on Udemy, mastering continuous integration and delivery (CI/CD) concepts. Gained hands-on experience in configuring Jenkins pipelines, automating builds, integrating version control systems, and deploying applications efficiently. This training enhanced my skills in streamlining software development processes using Jenkins.', 'jenkins.png')">
-            <img src="jenkins.png" alt="Certification 3">
-            <h3>Google IT Automation with Python</h3>        <!-- Add more cards as needed -->
-    </div>
+                <!-- Certification 1 -->
+                <div class="card" onclick="showDetails('AWS Certified Solutions Architect – Associate', 'Earned the AWS Certified Solutions Architect – Associate certification, showcasing expertise in cloud architecture and AWS services.', 'AWS-solution architect associate.png')">
+                    <img src="AWS-solution architect associate.png" alt="Certification 1">
+                    <h3>AWS Certified Solutions Architect – Associate</h3>
+                </div>
 
-    <div id="popup" class="popup">
-        <div class="popup-content">
-            <span class="close" onclick="closePopup()">&times;</span>
-            <img id="popup-image" src="" alt="Popup Image">
-            <h2 id="popup-title"></h2>
-            <p id="popup-description"></p>
+                <!-- Certification 2 -->
+                <div class="card" onclick="showDetails('Certified RHCSA-EX200', 'Successfully completed the Red Hat Certified System Administrator (RHCSA) training on Udemy, gaining expertise in Linux system administration, including managing users, processes, services, and configuring basic networking and security features. This certification demonstrates my foundational knowledge and practical skills in enterprise Linux environments.', 'RHCSA.png')">
+                    <img src="RHCSA.png" alt="Certification 2">
+                    <h3>Certified RHCSA – EX200</h3>
+                </div>
+
+                <!-- Certification 3 -->
+                <div class="card" onclick="showDetails('Jenkins From Zero to Master - Industrial CI/CD Projects', 'Completed a comprehensive Jenkins course on Udemy, mastering continuous integration and delivery (CI/CD) concepts. Gained hands-on experience in configuring Jenkins pipelines, automating builds, integrating version control systems, and deploying applications efficiently. This training enhanced my skills in streamlining software development processes using Jenkins.', 'jenkins.png')">
+                    <img src="jenkins.png" alt="Certification 3">
+                    <h3>Jenkins From Zero to Master</h3>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
 
-<footer>
-    <div class="container">
-        <p>&copy; 2024 Dharmadurai E. All rights reserved.</p>
-    </div>
-</footer>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="closePopup()">&times;</span>
+                <img id="popup-image" src="" alt="Popup Image">
+                <h2 id="popup-title"></h2>
+                <p id="popup-description"></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dharmadurai E. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="achive.js"></script>
 </body>

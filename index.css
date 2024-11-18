@@ -28,7 +28,7 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 body {
-    padding-top: 60px; /* Match the header height */
+    padding-top: 30px; /* Match the header height */
 }
 header h1 {
     text-align: center;
